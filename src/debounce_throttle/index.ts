@@ -1,0 +1,1 @@
+export {_throttle, _debounce} from './src/debounce';

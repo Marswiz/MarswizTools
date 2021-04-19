@@ -1,12 +1,15 @@
 {
-  "name": "MarsWiz",
+  "name": "marswiz-tools",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Personal tools npm package git repo for Marswiz.",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
 }
