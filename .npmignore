@@ -1,0 +1,10 @@
+node_modules/
+src/
+test/
+
+tsconfig.json
+.idea
+.gitignore
+*.idea
+index.html
+webpack.config.js

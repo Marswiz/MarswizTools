@@ -3,7 +3,7 @@
 import {defaultFunctionType} from "../../interfaces";
 
 // debounce function.
-export function _debounce(func : defaultFunctionType, delay : number) : defaultFunctionType{
+export function M_debounce(func : defaultFunctionType, delay : number) : defaultFunctionType{
 
     function _debouncedFunction(...args){
         if (_debouncedFunction['timeoutID']){
@@ -19,7 +19,7 @@ export function _debounce(func : defaultFunctionType, delay : number) : defaultF
 }
 
 // throttle function.
-export function _throttle(func : defaultFunctionType, delay : number) : defaultFunctionType{
+export function M_throttle(func : defaultFunctionType, delay : number) : defaultFunctionType{
     function _throttledFunction(...args){
         if (_throttledFunction['timeoutID']){
             console.warn('Func canceled', func);
